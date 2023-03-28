@@ -68,6 +68,11 @@ hr {
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+p {
+    color: white;
 }
 
 .contenido-peliculas {
