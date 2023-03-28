@@ -1,0 +1,52 @@
+body {
+    background-color: #130c2b;
+    text-align: center;
+    font-family: url("/Fonts/Indivisa\ Text\ Sans-Regular.otf");
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+h1 {
+    text-align: center;
+} 
+
+strong {
+    color: #1d81ad;
+}
+
+.formulario {
+    padding: 50px 50px;
+}
+
+/* a {
+    padding: 300px;
+} */
+
+.contenido {
+    background-color: #37334b;
+    margin: 50px 500px;
+    border-radius: 20px;
+    color: white;
+}
+
+.barra-texto {
+    padding: 15px 0px;
+}
+
+.btn {
+    align-items: center;
+    border-radius: 50px;
+    border: solid white 1px;
+    background-color: #1d81ad;
+    width: 100px;
+    margin-top: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

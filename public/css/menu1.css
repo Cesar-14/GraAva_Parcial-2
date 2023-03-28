@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #37334b;
+    text-align: center;
+}
+
+/* Start NavBar */
+
+.titulo {
+    margin-right: 300px;
+}
+
+.navbar {
+    background: linear-gradient(#130c2b, 90%, rgba(255, 255, 255, 0));
+    color: white;
+    padding: 20px 100px;
+}
+
+#cuenta {
+    border: solid white 1px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+}
+
+#active {
+    color: #1d81ad;
+}
+
+.nav-link {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin-right: 50px;
+}
+
+.nav-item :hover{
+    color: #1d81ad;
+}
+
+strong {
+    color: #1d81ad;
+}
+
+/* End NavBar */
+
+.contenido {
+    /* background-color: #37334b; */
+    margin: 50px 135px;
+    border-radius: 20px;
+    padding: 20px;
+    /* flex-direction: row-reverse; */
+}
+
+h2 {
+    color:white;
+}
+
+hr {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenido-peliculas {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 11em;
+    height: 22rem;
+    margin: 20px;
+    background-color: #130c2b;
+    border: none;
+    /* color: white; */
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.265);
+}
+
+.cartaBotones {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#cartaBoton {
+    width: 80px;
+    height: 35px;
+    font-size: 12px;
+    padding: 0px;
+    text-align: center;
+    background-color: #1d82ad64;
+}
+
+.contenido-peliculas :hover {
+    box-shadow: 10px 5px 5px #1d81ad;
+    box-shadow: none;
+    /* opacity: 0.8; */
+}
+
+img {
+    height: 220px;
+    /* border: solid white 2px; */
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    color: white;
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 15px;
+    color: #1d81ad;
+}
+
+#añadir {
+    /* background-color: rgba(255, 255, 255, 0.239); */
+    background-color: #ffffff23;
+    /* border: solid white 2px; */
+    box-shadow: none;
+    opacity: 1;
+}
+
+.añadir-icono {
+    width: 40px;
+    height: 40px;
+    margin: 140px 50px;
+    border: none;
+}

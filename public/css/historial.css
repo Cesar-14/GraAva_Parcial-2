@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+
+body {
+    background-color: #37334b;
+    text-align: center;
+}
+
+.titulo {
+    margin-right: 300px;
+}
+
+.navbar {
+    background: linear-gradient(#130c2b, 90%, rgba(255, 255, 255, 0));
+    color: white;
+    padding: 20px 100px;
+}
+
+#cuenta {
+    border: solid white 1px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#active {
+    color: #1d81ad;
+}
+
+.nav-link {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin-right: 50px;
+}
+
+.nav-item :hover{
+    color: #1d81ad;
+}
+
+strong {
+    color: #1d81ad;
+}
+
+.contenido {
+    /* background-color: #37334b; */
+    margin: 50px 135px;
+    border-radius: 20px;
+    padding: 20px;
+    flex-direction: row-reverse;
+}
+
+h2 {
+    color:white;
+}
+
+hr {
+    color: white;
+}
+
+.contenido-peliculas {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 10rem;
+    height: 20rem;
+    margin: 20px;
+    background-color: #130c2b;
+    border: none;
+    /* color: white; */
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.265);
+}
+
+.visto {
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    float: right;
+    margin-top: 90px;
+}
+
+img {
+    height: 220px;
+    /* border: solid white 2px; */
+    opacity: 0.5;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    color: white;
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 15px;
+    color: #1d81ad;
+}
+
+.btn {
+    border-radius: 20px;
+    border: solid #37334b 1px;
+    background-color: #1d81ad;
+    color: white;
+    padding: 5px 40px;
+}
+
+#añadir {
+    /* background-color: rgba(255, 255, 255, 0.239); */
+    background-color: #ffffff23;
+    /* border: solid white 2px; */
+    box-shadow: none;
+}
+
+.añadir-icono {
+    width: 40px;
+    height: 40px;
+    margin: 140px 50px;
+    border: none;
+}
